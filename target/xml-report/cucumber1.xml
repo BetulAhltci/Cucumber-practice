@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="1" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="2" time="6.926">
+    <testcase classname="US001 TEST" name="_2" time="4.628">
+        <system-out>
+            <![CDATA[Given Kullanici qualityDemy sayfasina gider.................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Google Arama Testi" name="Nevzat istenilen karsilastirmayi yapsin" time="2.095">
+        <failure message="" type="java.lang.AssertionError">
+            <![CDATA[Given Kullanici google sayfasina gider......................................passed
+Then Cokkies i google sayfasinda kabul eder.................................passed
+Then Arama Kutusuna karsilastirma yapmak istedigi "Zloty to Tl" para birimlerini girer.passed
+Then Para birimlerinin karsilastirmasini alir...............................passed
+Then Verilen degerlerin 4 den kucuk oldugunu dogrular.......................failed
+Then Kullanici sayfayi kapatir..............................................skipped
+
+StackTrace:
+java.lang.AssertionError
+	at org.junit.Assert.fail(Assert.java:87)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at org.junit.Assert.assertTrue(Assert.java:53)
+	at stepdefinitions.US001StepDefinitions.verilenDegerlerinDenKucukOldugunuDogrular(US001StepDefinitions.java:53)
+	at ✽.Verilen degerlerin 4 den kucuk oldugunu dogrular(file:///C:/Users/ahmet/IdeaProjects/T-108_CucumberPractice/src/test/resources/features/googleTest.feature:24)
+]]>
+        </failure>
+    </testcase>
+</testsuite>
